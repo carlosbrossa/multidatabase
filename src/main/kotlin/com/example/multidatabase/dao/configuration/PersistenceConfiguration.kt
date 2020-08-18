@@ -86,6 +86,7 @@ class PersistenceConfiguration {
         val properties = Properties()
         properties.put("hibernate.show_sql", true)
         properties.put("hibernate.format_sql", true)
+        properties.put("hibernate.ddl-auto", "create")
         properties.put("hibernate.dialect", "org.hibernate.dialect.MySQL5Dialect")
         return properties
     }

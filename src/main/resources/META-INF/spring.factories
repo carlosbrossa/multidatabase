@@ -1,1 +1,1 @@
-org.springframework.data.jdbc.repository.config.DialectResolver$JdbcDialectProvider=api.configuration.db.ProgressJdbcDialectProvider2
+org.springframework.data.jdbc.repository.config.DialectResolver$JdbcDialectProvider=com.example.multidatabase.dao.configuration.ProgressJdbcDialectProvider2
